@@ -1,0 +1,8 @@
+#create-pass #bg {
+  padding: 10rem;
+  background: url("../img/music\ file2-09.svg") no-repeat top/contain;
+}
+
+#create-pass .container {
+  padding-top: 2rem;
+}

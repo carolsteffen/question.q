@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ffb84d;
+  font-size: 1.75rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: clamp(14px, 1.6rem, 2vw);
+  font-family: "Quicksand", sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+input {
+  color: black;
+}
+
+header h1 {
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: whitesmoke;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  margin: 3.5rem auto;
+}
+
+.content header {
+  width: 100%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+button,
+input,
+.button {
+  height: 5rem;
+  border-radius: 0.8rem;
+}
+
+button,
+.button {
+  font-size: clamp(14px, 1.6rem, 2vw);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  line-height: 0;
+
+  color: whitesmoke;
+  background: #cc4129ce;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+  filter: brightness(1.2);
+  transition: filter 0.2s;
+}
+
+button > img,
+.button > img {
+  height: 2rem;
+  width: 4rem;
+  margin-right: 1rem;
+  width: 2rem;
+}
+
+button.outlined,
+.button.outlined {
+  background: #cc4129ce;
+  color: whitesmoke;
+  border: 0.2rem solid #cc4129ce;
+}
+
+button.red,
+.button.red {
+  background: #ff2f00;
+  color: whitesmoke;
+}
+
+button.grey,
+.button.grey {
+  background: rgb(165, 164, 164);
+  color: whitesmoke;
+}
+
+button.yellow,
+.button.yellow {
+  background: #ffb84d;
+}

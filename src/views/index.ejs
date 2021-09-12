@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question.Q - Criar Sala</title>
+    <link rel="stylesheet" href="../style/global.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="home" class="content">
+      <header>
+        <a href="/">
+          <h1>Question.Q</h1>
+        </a>
+      </header>
+
+      <div id="bg">
+        <div class="ball top"></div>
+        <div class="ball bottom"></div>
+      </div>
+
+      <main>
+        <div class class="container"> 
+          <%- include(`parts/${page}`) %>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
